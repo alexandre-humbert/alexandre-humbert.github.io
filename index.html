@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="CV Alexandre Humbert.">
+		<meta name="keywords" content="CV, Alexandre, Humbert, Ingénieur, France, Embarqué">
+		<meta name="author" content="Alexandre Humbert">
+		<title>CV Alexandre HUMBERT</title>
+
+	    <!-- STYLESHEET -->
+	   <link rel="stylesheet" href="style.css">
+	 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet">
+	 	<link rel="stylesheet" href="tingle.min.css">
+	</head>
+
+
+	<body>
+		<div id="feuille" class="feuille">
+			<div id="photo" class="gauche">
+				<img src="img/profil2.jpg" alt="photo-profil" />
+			</div>
+
+			<div id="contact" class="gauche">
+				<h3 data-icon="contact_page">Contact </h3>
+				<ul>
+					<li data-icon="home">20 quai de France, 38000 Grenoble</li>
+					<li data-icon="alternate_email"><a href="mailto:alex.hum@hotmail.fr">alex.hum@hotmail.fr</a></li>
+					<li data-icon="call"><a href="tel:0750219836">07 50 21 98 36</a></li>
+					<li class="bi-linkedin no-print"><a href="https://www.linkedin.com/in/alexandre-humbert-535193198"> Profil LinkedIn</a></li>
+				</ul>
+			</div>
+
+			<div id="competences" class="gauche">
+			<h3 data-icon="psychology">Compétences</h3>
+				<ul>
+					<li>C, C++, Python</li>
+					<li>OS temps réel, Linux embarqué</li>
+					<li>VHDL, FPGA</li>
+					<li>HTML, CSS, JS, PHP</li>
+				</ul>
+			</div>
+
+			<div id="loisirs" class="gauche">
+				<h3 data-icon="extension">Loisirs</h3>
+				<ul>
+					<li data-icon="sports_tennis">Tennis</li>
+					<li  data-icon="handyman">Bricolage </li>
+					<li data-icon="hiking">Randonnée</li>
+				</ul>
+			</div>
+
+			<div id="langues" class="gauche">
+				<h3 data-icon="forum">Langues </h3>
+				<ul>
+					<li><span class="flag-icon flag-icon-gb"></span> Anglais : TOEIC 840 (B2) </li>
+					<li><span class="flag-icon flag-icon-de"></span> Allemand : Notions (A2) </li>
+				</ul>
+			</div>
+			<div id="qrcode" class="gauche print-only ">
+				<img src="img/qr.svg" alt="qrcode"/><div>Version détaillée : <br> <a href="https://humbert.fr/cv">https://humbert.fr/cv</a></div>
+			</div>
+			<div id="fill" class="gauche"></div>
+			<div id="break"></div>
+
+
+
+			<div id="nom" class="droite">
+				<h2>Alexandre HUMBERT</h2>
+				<h4 id="fonction">ING&Eacute;NIEUR LOGICIEL EMBARQU&Eacute;</h4>
+			</div>
+			<div id="propos" class="droite">
+				<h3 data-icon="person">&Agrave; propos</h3>
+				<p>&Eacute;tudiant en dernière année d’école d'ingénieurs à Télécom St-Etienne spécialisé en électronique, systèmes embarqués et télécommunication. Je suis passionné à la fois par le software et le hardware et plus spécialement la programmation de bas niveau pour l'embarqué.  </p>
+			</div>
+			<div id="recherche" class="droite">
+				<h3 data-icon="search">Recherche</h3>
+					<ul>
+						<li>Premier emploi (diplôme septembre 2022)</li>
+						<li> Développement logiciel embarqué </li>
+						<li> Disponible mi-septembre 2022</li>
+					</ul>
+			</div>
+			<div id="experiences" class="droite">
+				<h3 data-icon="work">Expériences</h3>
+				<ul>
+					<li><span class="date">Février - Août 2022</span> – Stage de 6 mois à<span class="entreprise"> HAGER SECURITY </span>- Réalisation d’un sniffer avec une radio logicielle et expérimentation du protocole Matter sur cible EFR32<button onclick="modals[3].open();" class="no-print">Détails</button></li>
+					<li><span class="date">Juillet 2021</span> – Stage de 5 semaines à<span class="entreprise"> FACES INC. </span>- Réalisation d’un site internet et d’une application web.</li>
+					<li><span class="date">Janvier 2020</span> – Stage de 1 mois à<span class="entreprise"> Cristal Laser </span>- Réalisation et automatisation d’essais mécaniques</li>
+				</ul>
+			</div>
+
+			<div id="projets" class="droite">
+				<h3 data-icon="settings">Projets</h3>
+				<ul>
+					<li><span class="date">Juin 2021</span> - Projet Scarebot – Réalisation d’un prototype de console type Gameboy (hardware + software) avec 5 étudiants de l'école.<button onclick="modals[0].open();" class="no-print">Détails</button></li>
+					<li><span class="date">Octobre 2020/Janvier 2021</span> – Projet Robot thermique – Réalisation du logiciel embarqué d’un robot capable de suivre un humain.<button onclick="modals[1].open();" class="no-print">Détails</button></li>
+					<li><span class="date">2019</span> - TIPE : Transmission et perturbation d’un signal en lumière visible.<button onclick="modals[2].open();" class="no-print">Détails</button></li>
+				</ul>
+			</div>
+
+			<div id="formation" class="droite">
+				<h3 data-icon="school">Formation</h3>
+				<ul>
+					<li><span class="date">Actuellement</span> – 3ème année d’école d’ingénieurs à Télécom St-Etienne. Spécialité électronique et télécom.</li>
+					<li><span class="date">2017-2019</span> - Classe préparatoire maths/physique MPSI/MP au lycée Henri Poincaré à Nancy.</li>
+					<li><span class="date">2017</span> - Baccalauréat scientifique option Sciences de l’ingénieur Mention Très Bien.</li>
+				</ul>
+			</div>
+		</div>
+		
+
+
+
+
+<div class="background">
+   <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+   <span></span><span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<script src="tingle.min.js"></script>
+
+<script>
+var modals = [];
+for(let i=0; i < 4; i++){
+modals.push(new tingle.modal({
+    footer: true,
+    stickyFooter: false,
+    closeMethods: ['overlay', 'button', 'escape'],
+    closeLabel: "Fermer",
+    cssClass: ['modal']
+}));
+}
+
+modals[0].setContent('<h1>Projet Scarebot</h1><p>Projet consistant à développer une PoC d\'une Gameboy avec 5 camarades</p><p>Compétences :<p/><ul><li>Linux embarqué</li><li>Python</li><li>Buildroot</li><li>Impression 3D</li><li>Raspberry Pi Zéro</li></ul></p>');
+modals[1].setContent('<h1>Robot thermique</h1><p>Un robot capable de suivre une personne grâce à sa chaleur</p><p>Compétences :</p><ul><li>Linux embarqué</li><li>Langage C</li><li>Buildroot</li><li>BeagleBone</li></ul></p><a href="https://github.com/alexandre-humbert/robot-thermique">Plus de détails sur ce Github</a>');
+modals[2].setContent('<h1>TIPE sur le Li-Fi</h1><p>Etude de la transmission d\'un signal en lumière visible (LiFi)</p><a href="doc/TIPE.pdf">Lien présentation PDF</a>');
+
+modals[3].setContent('<h1>Sniffer radio logicelle</h1><p>Stage de fin d\'études consistant à développer un sniffer radio capable d\' enregistrer les communications entre des détécteurs de fumée connectés et de simuler ces détécteurs</p><p>Compétences :<p/><ul><li>C++</li><li>Python</li><li>GNU Radio</li><li>Radio</li><li>Linux embarqué</li><li>Buildroot</li></ul></p>'
+	+'<h1>PoC Matter</h1><p>Vérifier si le protocole pour la domotique Matter peut être utilisé pour des applications à très faible consommation d\'énergie</p><p>Compétences :<p/><ul><li>C</li><li>C++</li><li>EFR32</li><li>Radio</li></ul></p>'
+
+	);
+
+
+for(let i=0; i < 4; i++){
+modals[i].addFooterBtn('Fermer', 'tingle-btn tingle-btn--primary', function() {modals[i].close();});
+}
+
+	</script>
+	</body>
+</html>
